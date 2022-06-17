@@ -10,6 +10,7 @@ body {
     padding: 0;
     background-color: #4BAFD1;
     color: #FFF;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
     
 }
 

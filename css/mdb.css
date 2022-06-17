@@ -62,6 +62,10 @@
     box-sizing: border-box
   }
   
+body{
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
   @media(prefers-reduced-motion: no-preference) {
     :root {
       scroll-behavior: smooth
