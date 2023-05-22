@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* total width */
+body::-webkit-scrollbar {
+  background-color: white;
+  width: 5px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+  background-color: #3b3b3b;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 0px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+.container {
+  width: 1478px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-family: Verdana;
+  font-size: 30px;
+}
+
+.bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-image: url("../IMG/pexels-photo-3193846.png");
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.432);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bg .btn1 {
+  font-family: Verdana;
+  font-size: 18;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  width: 200px;
+  height: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background: #e01c17;
+  background: -webkit-gradient(linear, left top, right top, from(#e01c17), to(#ff9833));
+  background: linear-gradient(90deg, #e01c17 0%, #ff9833 100%);
+}
+
+header {
+  background-color: #000;
+}
+
+header div {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Verdana;
+  font-size: 24px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 33.5vw;
+}
+
+.hero {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #e01c17;
+  background: -webkit-gradient(linear, left top, right top, from(#e01c17), to(#ff9833));
+  background: linear-gradient(90deg, #e01c17 0%, #ff9833 100%);
+  -webkit-clip-path: polygon(0 0, 55% 0, 91% 100%, 0% 100%);
+          clip-path: polygon(0 0, 55% 0, 91% 100%, 0% 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .content h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 60px;
+}
+
+.hero .content p {
+  font-family: Verdana;
+  font-size: 24px;
+  width: 797px;
+}
+
+.hero .content .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+  width: 382px;
+}
+
+.hero .content .buttons .btn2 {
+  font-family: Verdana;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  width: 200px;
+  height: 45px;
+}
+
+.hero .content .buttons .btn3 {
+  font-family: Verdana;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.list_experiences {
+  background-color: #3b3b3b;
+}
+
+.list_experiences .experiences {
+  padding-bottom: 78px;
+}
+
+.list_experiences .experiences h1 {
+  font-family: 'Barlow Condensed Medium', sans-serif;
+  color: #FF9833;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 62px;
+  padding-bottom: 32px;
+}
+
+.list_experiences .experiences .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1364px;
+}
+
+.list_experiences .experiences .names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1336px;
+}
+
+.list_experiences .experiences .names h1 {
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.list_experiences .experiences .experiences_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1336px;
+}
+
+.list_experiences .experiences .experiences_txt p {
+  font-family: Verdana;
+  font-size: 18px;
+  width: 255px;
+}
+
+.list_experiences .experiences .btn4 {
+  font-family: Verdana;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background: #e01c17;
+  background: -webkit-gradient(linear, left top, right top, from(#e01c17), to(#ff9833));
+  background: linear-gradient(90deg, #e01c17 0%, #ff9833 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  height: 45px;
+  width: 200px;
+  margin-top: 90px;
+}
+
+.app {
+  background-color: #fff;
+}
+
+.app .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app .phone .app_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app .phone .app_txt h1 {
+  color: #FF9833;
+  font-family: 'Barlow Condensed Medium', sans-serif;
+  font-size: 55px;
+  padding-bottom: 23px;
+}
+
+.app .phone .app_txt p {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  width: 665px;
+}
+
+.newsletter {
+  background: #e01c17;
+  background: -webkit-gradient(linear, left top, right top, from(#e01c17), to(#ff9833));
+  background: linear-gradient(90deg, #e01c17 0%, #ff9833 100%);
+}
+
+.newsletter .newsletter_content {
+  width: 1073px;
+  height: 571px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newsletter .newsletter_content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.newsletter .newsletter_content .signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newsletter .newsletter_content .signup h1 {
+  font-family: 'Barlow Condensed Medium', sans-serif;
+  margin-bottom: 20px;
+}
+
+.newsletter .newsletter_content .signup p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 25px;
+  width: 796px;
+}
+
+.newsletter .newsletter_content .signup .textbox {
+  width: 796px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+}
+
+.newsletter .newsletter_content .signup .btn5 {
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  border: #fff solid 5px;
+  color: #fff;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 232px;
+  height: 60px;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+/*# sourceMappingURL=app.css.map */
